@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  background-color: #f4f7fb;
+  color: #243247;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+}
+
+#student-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 14px rgb(25 45 75 / 10%);
+}
+
+#student-table caption {
+  padding: 1rem;
+  color: #243247;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+#student-table th,
+#student-table td {
+  padding: 0.9rem 1rem;
+  border: 1px solid #dce3ed;
+  text-align: left;
+}
+
+#student-table thead {
+  background-color: #2457a7;
+  color: #fff;
+}
+
+#student-table tbody tr:nth-child(even) {
+  background-color: #f1f5fa;
+}
+
+#student-table tbody tr:hover {
+  background-color: #e2ecfb;
+}
